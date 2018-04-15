@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/**
+ * Copyright 2018 Jeovani Martínez
+ *
+ * jeovani.info
+ * github.com/jeovanimartinez
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpi_view_pager" format="reference" />
+        <attr name="vpi_items_count" format="integer" />
+        <attr name="vpi_item_selected" format="integer" />
+        <attr name="vpi_item_type" format="enum">
+            <enum name="oval" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="vpi_orientation" format="enum">
+            <enum name="horizontal" value="1" />
+            <enum name="vertical" value="2" />
+        </attr>
+        <attr name="vpi_selected_primary_color" format="color" />
+        <attr name="vpi_selected_secondary_color" format="color" />
+        <attr name="vpi_unselected_primary_color" format="color" />
+        <attr name="vpi_unselected_secondary_color" format="color" />
+        <attr name="vpi_item_elevation" format="dimension" />
+        <attr name="vpi_item_width" format="dimension" />
+        <attr name="vpi_item_height" format="dimension" />
+        <attr name="vpi_item_margin" format="dimension" />
+    </declare-styleable>
+
+</resources>

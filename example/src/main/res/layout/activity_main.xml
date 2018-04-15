@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="info.jeovani.viewpagerindicator.example.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mainCardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/mainViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark">
+
+            </android.support.v4.view.ViewPager>
+
+        </android.support.v7.widget.CardView>
+
+        <info.jeovani.viewpagerindicator.ViewPagerIndicator
+            android:id="@+id/mainViewPagerIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:vpi_view_pager="@+id/mainViewPager"
+            app:vpi_items_count="6"
+            />
+
+        <info.jeovani.viewpagerindicator.ViewPagerIndicator
+            android:id="@+id/mainViewPagerIndicatorVertical"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:vpi_view_pager="@+id/mainViewPager"
+            android:visibility="gone"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <RadioGroup
+        android:id="@+id/mainRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp">
+
+        <RadioButton
+            android:id="@+id/mainRb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example1" />
+
+        <RadioButton
+            android:id="@+id/mainRb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example2" />
+
+        <RadioButton
+            android:id="@+id/mainRb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example3" />
+
+        <RadioButton
+            android:id="@+id/mainRb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example4" />
+
+        <RadioButton
+            android:id="@+id/mainRb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example5" />
+
+        <RadioButton
+            android:id="@+id/mainRb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example6" />
+    </RadioGroup>
+
+</LinearLayout>

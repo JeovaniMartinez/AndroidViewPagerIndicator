@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">VPI Example</string>
+    <string name="library_name">View Pager Indicator</string>
+    <string name="example1">Example 1</string>
+    <string name="example2">Example 2</string>
+    <string name="example3">Example 3</string>
+    <string name="example4">Example 4</string>
+    <string name="example5">Example 5</string>
+    <string name="example6">Example 6</string>
+
+</resources>
