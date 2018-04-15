@@ -61,4 +61,4 @@ dependencies {
  mViewPagerIndicator.itemsCount = 5 //Total elements of your ViewPager adapter
 ```
 
-That's all you need for basic the implementation, the library will react by changing the selected item on ViewPager slider
+That's all you need for basic the implementation, the library will react by changing the selected item when ViewPager page change
