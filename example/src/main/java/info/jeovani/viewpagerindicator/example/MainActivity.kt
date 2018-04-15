@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
         mainViewPagerIndicator.itemHeight = 9
         mainViewPagerIndicator.itemMargin = 3
 
-        mainViewPagerIndicator.backgroundColor = Color.parseColor("#FFFFFF")
+        mainViewPagerIndicator.backgroundColor = Color.parseColor("#b2ebf2")
     }
 
 
