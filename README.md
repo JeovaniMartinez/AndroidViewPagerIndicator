@@ -36,7 +36,7 @@ dependencies {
 }
 ```
 
-### To implement in your project
+### Getting Started
 
 -  In your `layout`:
  
@@ -64,3 +64,21 @@ dependencies {
 ```
 
 That's all you need for basic the implementation, the library will react by changing the selected item when ViewPager page change
+
+### Customize
+
+| Methods Java/Kotlin  | XML attribute | Description |
+| ------------- | ------------- |  ------------- |
+| setViewPager()  <br/> viewPager| vpi_view_pager  |  ViewPager to associate pager  |
+| setItemsCount() <br/>  itemsCount| vpi_items_count  | Total ViewPager adapter elements  |
+| setItemSelected()  <br/> itemSelected| vpi_item_selected  |  Current position selected  |
+| setItemType() <br/> itemType| vpi_item_type  | Item shape, use PagerItemType.OVAL or PagerItemType.RECTANGLE, in XML use oval or rectangle  |
+| setOrientation()  <br/>  orientation| vpi_orientation  | Items orientation, use PagerOrientation.HORIZONTAL or PagerOrientation.VERTICAL, in XML use horizontal or vertical |
+| setItemSelectedColors() <br/>  itemSelectedColors| vpi_selected_primary_color <br/> vpi_selected_secondary_color | Array of colors for the selected element of the pager, use one color for solid and two for gradient, in XML can define one or both colors separately  |
+| setItemsUnselectedColors()  <br/> itemsUnselectedColors | vpi_unselected_primary_color  <br/> vpi_unselected_secondary_color | Array of colors for the unselected elements of the pager, use one color for solid and two for gradient, in XML can define one or both colors separately  |
+| setItemElevation() <br/> itemElevation | vpi_item_elevation  | Elevation for each item, in code use a integer and the unity is converted to dp, in XML use dp |
+| setItemWidth()  <br/> itemWidth | vpi_item_width  | Width for each item, in code use a integer the library convert the unity to dp, in XML use dp  |
+| setItemHeight()  <br/> itemHeight | vpi_item_height  | Height for each item, in code use a integer the library convert the unity to dp, in XML use dp  |
+| setItemMargin() <br/> itemMargin | vpi_item_margin  | Margin for each item, in code use a integer the library convert the unity to dp, in XML use dp |
+
+
