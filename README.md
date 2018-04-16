@@ -10,7 +10,7 @@ Pager indicator view for android, compatible with support v4 ViewPager
 
 [![](https://github.com/JeovaniMartinez/AndroidViewPagerIndicator/blob/develop/assets/images/demo_video.png)](https://youtu.be/wrjiFcLXh1Q)
 
-### Usage (Dependencies)
+## Usage (Dependencies)
 
 -  Add the following to your project level `build.gradle`:
 
@@ -36,7 +36,7 @@ dependencies {
 }
 ```
 
-### Getting Started
+## Getting Started
 
 -  In your `layout`:
  
@@ -65,7 +65,7 @@ dependencies {
 
 That's all you need for basic the implementation, the library will react by changing the selected item when ViewPager page change
 
-### Customize
+## Customize
 | Methods Java/Kotlin  | XML attribute | Description |
 | ------------- | ------------- |  ------------- |
 | setViewPager()  <br/> viewPager| vpi_view_pager  |  ViewPager to associate pager  |
@@ -80,7 +80,7 @@ That's all you need for basic the implementation, the library will react by chan
 | setItemHeight()  <br/> itemHeight | vpi_item_height  | Height for each item, in code use a integer the library convert the unity to dp, in XML use dp  |
 | setItemMargin() <br/> itemMargin | vpi_item_margin  | Margin for each item, in code use a integer the library convert the unity to dp, in XML use dp |
 
-### License 
+## License 
 
 ```
 Copyright 2018 Jeovani Martínez
