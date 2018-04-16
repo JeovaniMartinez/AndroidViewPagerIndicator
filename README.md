@@ -6,7 +6,9 @@ Pager indicator view for android, compatible with support v4 ViewPager
 
 ## Demo
 
-![](https://github.com/JeovaniMartinez/AndroidViewPagerIndicator/blob/develop/assets/images/demo_img.png)
+[![](https://github.com/JeovaniMartinez/AndroidViewPagerIndicator/blob/develop/assets/images/demo_img.png)](https://youtu.be/wrjiFcLXh1Q)
+
+[![](https://github.com/JeovaniMartinez/AndroidViewPagerIndicator/blob/develop/assets/images/demo_video.png)](https://youtu.be/wrjiFcLXh1Q)
 
 ### Usage (Dependencies)
 
