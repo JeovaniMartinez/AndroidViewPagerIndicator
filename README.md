@@ -66,7 +66,7 @@ dependencies {
 That's all you need for basic the implementation, the library will react by changing the selected item when ViewPager page change
 
 ### Customize
-
+-----
 | Methods Java/Kotlin  | XML attribute | Description |
 | ------------- | ------------- |  ------------- |
 | setViewPager()  <br/> viewPager| vpi_view_pager  |  ViewPager to associate pager  |
